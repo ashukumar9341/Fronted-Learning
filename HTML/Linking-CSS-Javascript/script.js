@@ -1,0 +1,1 @@
+alert("Hello i am from script js file");

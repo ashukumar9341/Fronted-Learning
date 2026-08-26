@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning forms</title>
+</head>
+
+<body>
+    <h1>contact form</h1>
+    <form action="post">
+        <div>
+            <label for="Fullname">Enter your Fullname</label>
+            <input type="text" id=Fullname name="Fullname" placeholder="Enter your name" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="female" name="gender" value="female"> 
+            <label for="female">female</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+        </div>
+        <!-- checkbox tag -->
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">subscribe for updates</label>
+        </div>
+       
+         <div>
+             <!-- Textarea & Select -->
+               <label for="comment">Enter your comment hree</label>
+               <br>
+              <textarea id="comment" name="comment" rows="4" cols="40" id="4"></textarea>
+         </div>
+         <div>
+            <!-- Select tag -->
+             <input type="placeholder" placeholder="choose fruits name">
+             <select name="fruits" id="" >
+                <option value="apple">apple</option>
+                <option value="banana">banana</option>
+                <option value="mango">mango</option>
+                <option value="pineapple">pineapple                                              </option>
+             </select>
+         </div>
+    </form>
+</body>
+
+</html>

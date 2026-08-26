@@ -1,0 +1,47 @@
+| Topic                | Simple Meaning                                      | Example                      |
+| -------------------- | --------------------------------------------------- | ---------------------------- |
+| **SEO**              | Google ko website samajhne/discover karne mein help | Search result mein page      |
+| **LCP**              | Main/big content kitni jaldi dikha                  | Hero image                   |
+| **CLS**              | Page kitna unexpectedly move hua                    | Button neeche shift          |
+| **FID**              | First interaction ka initial delay                  | First click response         |
+| **INP**              | Interactions par overall responsiveness             | Add to Cart response         |
+| **Lighthouse**       | Website ka automated audit                          | Performance/SEO report       |
+| **Meta Description** | Page ka short search-result description             | Search snippet               |
+| **Meta Keywords**    | Old keyword meta tag                                | Google Search doesn't use it |
+| **Mobile Preview**   | Mobile screen par website test                      | Responsive layout            |
+
+
+SEO :- Apni website ko aise banana ki Google jaise search engines tumhari
+      website ko easily crawl, understand aur search results mein show kar saken.
+
+ 👉👉👉👉 Real-life example
+
+Suppose tumne ek website banayi: bestjava.com
+Aur tumhara article hai: "Java ArrayList vs LinkedList"
+Koi Google par search karta hai: ArrayList vs LinkedList in Java
+Agar tumhari site properly optimized hai, Google tumhari page ko relevant result ke roop mein consider kar sakta hai.
+
+2. 📐 CLS — Cumulative Layout Shift
+
+Ye website ki visual stability measure karta hai.
+Simple language: Page load hone ke baad screen par elements unexpected way mein kitna hilte hain?
+👉👉👉👉Real-life example
+Tum Amazon-type website open karte ho.
+
+Initially:
+[ Product Image ]
+Buy Now
+₹999
+Tum "Buy Now" click karne wale ho...
+
+Suddenly image/ad load hua:
+
+[ BIG PRODUCT IMAGE ]
+[AD]
+Buy Now
+₹999
+Button neeche shift ho gaya 😭
+
+Tumne accidentally kisi aur button ko click kar diya.
+
+This is Layout Shift.
