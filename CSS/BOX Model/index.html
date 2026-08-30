@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        *{
+            margin: 0;
+
+        }
+        .box{
+            background-color: aqua;
+        }
+        .box1{
+            color: red;
+            padding: 50px;
+            margin: 35px;
+            border: 10px solid blue  ;
+            /* normal height me koi padding aur border include nhi hota */
+           
+            box-sizing: border-box;
+            /* box sizing border-box height me padding aur border include karke hai */
+        }
+        .box2{
+            color: green;
+            padding: 50px;
+            margin: 25px;
+            border: 10px solid black;
+        }
+    </style>
+   <a href="https://miro.medium.com/0*kAD00byJs8jdmXvr.png">margin collase pic</a>
+</head>
+<body>
+    <div class="box box1">i am a box1</div>
+    <div class="box box2">i am box2</div>
+</body>
+</html>

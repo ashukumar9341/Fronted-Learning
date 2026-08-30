@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+    <style>
+        /* element selector */
+        /* div{
+            background-color: red;
+        } */
+         /* class selector */
+         .red{
+            background-color: red;
+         }
+         /* Id selector */
+         #green{
+            background-color: green;
+         }
+         /* child selector :- div ke andar paragraph me color change*/
+         div > p{
+            background-color: aqua;
+            color: blue;
+         }
+         /* decendent selector */
+         div p {
+            background-color: black;
+            color: white;
+         }
+         /* universal selector  */
+         * {
+            margin: 0%;
+            padding: 0%;
+         }
+         /* pseudo selectors */
+        a:visited {
+            color:magenta;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+           background-color: red; 
+        }
+        /* hower karne per color change hoga */
+        a:hover{
+            background-color: navy;
+        }
+        /* jaha jaha p apne parent ka first child hai uska bg color aqua */
+        p:first-child{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+      <p>  i am one</p>
+      <p>i am second child</p>
+    </div>
+    <div class="red">
+        i am div
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, saepe quam nemo molestias ad eum esse, ipsam enim ullam praesentium non aperiam facere illo nostrum. Harum.</p>
+    </div>
+    <div id="green">
+        hey ashu
+        <p>i am a para inside div</p>
+    </div>
+    <div>
+        <article>
+            <p>now i am not directly under the dive-decendent </p>
+        </article>
+    </div>
+    <a href="www.google.com">go to google</a>
+    <a href="www.facebook.com">go to facebook</a>
+
+</body>
+</html>
