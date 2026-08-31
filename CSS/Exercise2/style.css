@@ -1,0 +1,9 @@
+div:first-child p:first-of-type{
+    background-color: yellow;
+    color: red;
+}
+/* div:first-child :- jo div apne parent ka first child hai usko select kro ab p:first-of-type matlb us div ke andar pehle para ko select kro  */
+div p{
+    background-color: blue;
+    color: white;
+}

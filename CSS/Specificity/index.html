@@ -1,0 +1,47 @@
+<!-- maan lo 2 selectors lagaye hai same element pe ek bol raha hai bg red ek bg yellow kon sa aappliy hoga -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <style>
+        /* same element pe alag alag tareeko se different prop use kiya gya hua hai finally uss element pe kon sa property rule karega ye depend kartahai casceding algorithm */
+
+        /* the specificity of the element selector is 1*/
+        h1 {
+            color: aqua;
+        }
+        /* the specificity of the class selector is 10*/
+        .yellow {
+            color: yellow;
+        }
+
+        .cred {
+            color: red;
+        }
+
+        .cpurple {
+            color: purple;
+        }
+
+        /* agar same type ke selectors hai to jo sabse last me aayega wahi jeetega */
+
+        /* attribute selector */
+        [data-x = a]{
+            background-color: maroon;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>maan lo 2 selectors lagaye hai same element pe ek bol raha hai bg red ek bg yellow kon sa apply hoga</h1>
+
+    <div>
+        <h1 style="color: blue;" class="yellow cred cpurple" data-x="a" >css specificity</h1>
+    </div>
+
+</body>
+
+</html>
