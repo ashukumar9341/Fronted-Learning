@@ -1,0 +1,32 @@
+body{
+    background-color: red;
+}
+@media screen and (max-width: 455px) {
+  body{
+    background-color: blue;
+}
+.boxes{
+    flex-direction: column;
+}
+}
+@media screen and (orientation: landscape) {
+   body{
+    border : 2px solid purple;
+   } 
+}
+/* landscape(width> height) , potrait(height>width) */
+/* @media not | only mediatype and (expressions) 
+ CSS-Code;
+*/
+
+.box{
+    width: 344px;
+    height: 344px;
+    background-color: steelblue;
+    padding: 3px;
+    margin: 3px;
+}
+.boxes{
+    display: flex;
+}
+/* break points like for tablet(455-750) ,            */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows and outline</title>
+    <style>
+        .box{
+           border: 2px solid black;
+           padding: 34px;
+           /* box-shadow:h-offset v-offset blur spread color inset*/
+           box-shadow: 5px 15px 5px #888888;
+           /* text-shadow:h-offset v-offset blur color */
+           text-shadow: 5px 15px 2px #333333;
+
+        }
+        .text-swhadow{
+            padding: 20px;
+            margin: 2px;
+          
+            text-shadow: 5px 15px 2px #888888;
+
+            outline: 8px 8px 7px #e695f7;
+            outline-offset: 44px;
+        }
+        p{
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        i am a box
+    </div>
+    <p class="text-swhadow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eum consequatur eligendi esse, quidem dolorum expedita necessitatibus veritatis ad quia molestias error quaerat aliquid, ratione in temporibus tenetur nobis neque? Sunt laudantium corporis necessitatibus.
+    </p>
+</body>
+</html>

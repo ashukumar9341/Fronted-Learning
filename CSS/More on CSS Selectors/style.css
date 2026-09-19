@@ -1,0 +1,34 @@
+/* *{
+    background-color:blueviolet;
+} */
+ .boxes *{
+    color: blue;
+    border: px solid red;
+ }
+/* .box:first-child{
+    background-color: red;
+} */
+.box::first-line{
+    color: yellow;
+}
+/* attribute selector */
+[data-color="primary"]{
+    margin-top: 55px;
+}
+/* group bhi kar sakte hai */
+/* p, a ,.box,[data-color="primary"]{
+    margin-top: 55px;
+}
+    /* nth child selector */
+/* .box:nth-child(even){
+background-color: black;
+-webkit-animation: both;
+}  */
+  /* .boxes::before{
+    content: "ashu is a good boy";
+  } */
+   /* about selsecton */
+   /* ::selection{
+        background-color: aliceblue;
+   } */
+    i

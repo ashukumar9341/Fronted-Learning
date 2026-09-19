@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow property</title>
+    <style>
+        .box {
+            width: 20vw;
+            height: 30vh;
+            border: 2px solid blue;
+            /* overflow: auto; */
+            /* overflow-x: hidden;
+            overflow-y: scroll; */
+            /* overflow: auto hidden; */
+            overflow: scroll hidden;
+            /* white-space: nowrap;
+            text-overflow: ellipsis; */
+        }
+    </style>
+</head>
+
+<body>
+    CSS ka overflow property decide karta hai ki jab kisi element ke andar ka content uski given width/height se bahar
+    nikal jaaye, toh browser us extra content ke saath kya kare.
+    <div class="box">
+        i am a good boy and love to write Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum officiis
+        perspiciatis eum perferendis culpa expedita ipsum laborum neque tempore delectus officia repellat cumque sint
+        iusto ipsa pariatur ex esse nostrum, itaque tenetur distinctio, sit impedit. Temporibus nemo ab tenetur quos
+        assumenda, laborum error modi soluta.
+    </div>
+</body>
+
+</html>

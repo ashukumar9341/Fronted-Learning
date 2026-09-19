@@ -1,0 +1,34 @@
+/* root ke andar variable : global variable */
+:root{
+    --color: rgb(0, 225, 255);
+    --seccolor: rgb(235, 147, 226);
+    --defpad: 23px;
+    --defop: 0.4;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--seccolor) ;
+}
+ul{
+    display: flex;
+}
+ul li{
+    opacity: var(--defop);
+    list-style: none;
+    /* padding: 34px; */
+    padding: var(--defpad);
+    border: 2px solid var(--seccolor);
+}
+/* yaha global variable ovewrite hokar local varible ban gya hai */
+ul li:first-child{
+    --color: rgb(0, 255, 13);
+    /* if color not found then we use --> */
+    /* color: var(--color,black); */
+    background-color: var(--color);
+}
