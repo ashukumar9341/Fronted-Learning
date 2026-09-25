@@ -1,0 +1,21 @@
+      justified content
+1. space-between
+Sirf items ke beech space hota hai.
+Edges par space = 0
+
+2. space-around
+Har item ke around equal space hota hai.
+Edge ka space items ke beech ke space ka half hota hai.
+
+3.space-evenly
+Yahan every gap exactly equal hota hai Including edges.
+
+justified content :- 
+1.justify-content :- Controls how items are positioned along the main axis.
+Items move left ↔ right:
+
+Align items:-
+1.align-items:-Controls how items are positioned along the cross axis.
+For a row, that means up ↕ down
+
+concept-1:-

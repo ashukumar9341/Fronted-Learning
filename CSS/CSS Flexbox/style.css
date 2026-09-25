@@ -1,0 +1,39 @@
+.container {
+    border: 2px solid blue;
+    display: flex;
+    min-height: 80vh;
+    /* justify-content: space-evenly; */
+    /* align-items: center;  -- for one line and there is no justifiy item in flex box */
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* for more than one line */
+    align-content: center;
+    flex-flow: row wrap-reverse;
+    /* gap:30px ; */
+    row-gap: 30px;
+    column-gap: 60px;
+}
+
+.item {
+    /* flex-grow: 1; */
+    height: 92px;
+    width: 92px;
+    background-color: red;
+    border: 2px solid black;
+    /* margin: 4px; */
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 1;
+}
+.order-3{
+    order: 1;
+}
+.item1{
+    background-color: brown;
+    /* flex-grow: 50; */
+    flex-shrink: 2;
+}

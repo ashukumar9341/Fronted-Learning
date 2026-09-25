@@ -1,0 +1,40 @@
+/* :root{
+    --primary-color: #ad5afacc ;
+    --text-color: white;
+    --secondary-color: #d4b8efcc;
+} */
+:root{
+    --primary-color: #5afa7dcc ;
+    --text-color: white;
+    --secondary-color: #d4b8efcc;
+}
+ul li{
+    list-style: none;
+    
+}
+body{
+    background-color: var(--secondary-color);
+    font-family: 'poppins' , sans-serif;
+}
+ul li {
+    display: inline;
+    padding: 23px;
+   justify-content: center;
+   font-weight: 600;
+   color: var(--text-color);
+}
+/* ul{
+    display: flex;
+    justify-content: center;
+} */
+nav{
+    background-color: var(--primary-color);
+   padding: 12px 0px; 
+}
+ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+ 
+
+

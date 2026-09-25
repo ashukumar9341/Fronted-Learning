@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .container {
+            background-color: azure;
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box {
+            width: 34px;
+            height: 45px;
+            background-color: aqua;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation: AshuKaAnimation;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+           animation-timing-function: cubic-bezier(0.26, 0.24, 0.31, 1.35);
+           animation-delay: 1s; */
+           /* animation-direction: reverse; */
+           /* animation-direction: alternate-reverse; */
+           /* animation-play-state: running; */
+
+           animation: AshuKaAnimation 2s ease-in-out  3s infinite  forwards ,
+            Ashu2 2s ease-in-out  3s infinite  forwards;
+        }
+
+        @keyframes AshuKaAnimation {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: blue;
+                transform: translateX(1000px);
+            }
+           
+        }
+         @keyframes Ashu2 {
+                0%{
+                  transform: rotate(100deg);  
+                }
+                10%{
+                   transform: rotate(150deg);   
+                }
+                20%{
+                     transform: rotate(200deg); 
+                }
+                50%{
+                     transform: rotate(250deg); 
+                }
+                80%{
+                    transform: rotate(300deg);
+                }
+                100%{
+
+                }
+            }
+
+        /* .box:hover {
+  animation-name: AshuKaAnimation ;
+  animation-duration: 0.7s;
+  animation-iteration-count: 10;
+} */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">box</div>
+    </div>
+</body>
+
+</html>

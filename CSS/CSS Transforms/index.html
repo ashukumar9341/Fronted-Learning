@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms</title>
+</head>
+<style>
+    .box{
+        height: 50px;
+        width: 50px;
+        background-color: beige;
+        border: 2px solid black;
+
+
+        /* transform: rotate(40deg); */
+        /* transform: rotate(0.25turn); */
+        /* transform: rotateX(40deg); */
+        /* transform: rotateY(40deg); */
+
+        /* transform: scale(1.6); */
+        /* transform: scaleX(1.6); */
+
+        /* transform: skew(5deg); */
+        /* transform: skewY(34deg); */
+
+        /* transform: translate(34px);
+        transform: translateX(34px);
+        transform: translateY(34px);
+        transform: translateZ(34px); */
+
+        /* using multiple property */
+        /* transform: translateY(100%) skewX(40deg) translateX(45%); */
+        
+
+        /* yaha pe left top point of container ke about rotate karega  */
+      /* transform-origin: -0% -0%;
+      transform: rotate(390deg); */
+
+      /* ab ye x-axis ka 32% ke about rotate hoga */
+      /* transform-origin: 32% -0%;
+      transform: rotate(355deg) ; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 100vw;
+        height: 80vh;
+        border: 2px solid red;
+
+
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">box</div>
+    </div>
+</body>
+</html>

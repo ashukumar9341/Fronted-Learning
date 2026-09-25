@@ -31,4 +31,6 @@ background-color: black;
    /* ::selection{
         background-color: aliceblue;
    } */
-    i
+    input ::placeholder{
+        color: blue;
+    }
